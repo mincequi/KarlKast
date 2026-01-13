@@ -1,0 +1,28 @@
+name: karl_kast
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.7.2
+  web_socket_channel: ^3.0.3
+  #flutter_sound: 9.26.0 -> does not compile
+  #flutter_pcm_sound_fork: -> does not work
+  #  path: ../../../flutter_pcm_sound
+  mp_audio_stream: ^0.2.2
+  fl_chart: ^0.71.0
+  geekyants_flutter_gauges: ^1.0.4
+  google_fonts: ^6.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
